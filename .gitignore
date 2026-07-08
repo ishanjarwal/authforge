@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+coverage/
+.turbo/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.nyc_output/
+
+# Cache
+.cache/
+.temp/
+tmp/
+
+# Prisma
+**/prisma/dev.db
+**/prisma/dev.db-journal
+
+# Docker
+docker-data/
+
+# NestJS
+**/.nestjs-cli.json
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Package manager
+package-lock.json
+yarn.lock
+
+# Generated documentation
+typedoc/
+
+# Local runtime files
+*.sqlite
+*.db

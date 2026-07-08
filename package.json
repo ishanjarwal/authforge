@@ -1,0 +1,14 @@
+{
+  "name": "authforge",
+  "version": "1.0.0",
+  "description": "AuthForge - Simple authentication services for all projects.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.2",
+  "devDependencies": {
+    "turbo": "^2.10.4"
+  }
+}
